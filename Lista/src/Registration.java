@@ -37,9 +37,9 @@ public class Registration extends JFrame {
 
         // Inicializa a conexão com o banco de dados
         try {
-            String url = "#";
-            String user = "#";
-            String password = "#";
+            String url = "jdbc:mysql://localhost:3306/contatos";
+            String user = "root";
+            String password = "9153R@y#";
             Connection connection = DriverManager.getConnection(url, user, password);
         } catch (SQLException e) {
             e.printStackTrace();
